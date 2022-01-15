@@ -5,7 +5,7 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
-app.MapPost("/NumerosDivisoresEPrimos", (int numero) =>{
+app.MapGet("/NumerosDivisoresEPrimos", (int numero) =>{
 
     var divisores = new CalcularDivisores().Executar(numero);
     var primos = divisores.Where(w => w.ÉNúmeroPrimo()).ToList();
