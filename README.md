@@ -1,4 +1,4 @@
-# 📱 Cálculo de Divisores e Primos
+# 💻 Cálculo de Divisores e Primos
 
 Acesse o link abaixo para conferir o resultado 😁
 
